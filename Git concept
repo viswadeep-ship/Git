@@ -1,0 +1,18 @@
+We have centalised and decentralised.
+Centralised:
+Single point of failure
+Single point of development
+Accessibility
+SVN is a centalised. All laptops are connected to SVN, all laptops code are stored in SVN, if SVN server got crashed we cannot get back the code and it is difficult to restore the history and it is not maintain backup properly.
+
+Decentralised:
+code pushes to local repo and local repo pushes to remote repo. Code stores in local repo also. If laptop got crashed we get get back from other laptop also or from local repo. This is called distributed/decentralised.
+
+If anyone ask in interview what architecture git follows?
+ANS: Git follows distributed/decentralised architecture. Same kind of setup exists in remote server is available in all the computers connected to that repo. So at any point of time single computer is enough to restore everything. This is called distributed/decentralised. This is achieved local repo setup.
+Repository -> which stores something
+Git -> concept invented Linus Torvalds, inventor of Linux.
+Git hub, Bit Bucket, Git lab, code commit, Azure, Repos etc.
+Whatever u r doing work it stores in Githubis called Gitops. Stores in any repository.
+clone -> download the repo
+git clone <URL>
